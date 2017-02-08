@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"  android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3" android:layout_alignParentTop="false" android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false" android:src="@drawable/ic_chevron_right"
+            android:layout_alignParentLeft="false" android:layout_marginRight="5dp"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:id="@+id/linearLayout"
+            android:layout_marginLeft="25dp" android:layout_marginRight="15dp">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginRight="15dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/message_list_number" android:textSize="14dp" android:textColor="#000000"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/message_list_date" android:textAlignment="textEnd" android:gravity="end"
+                    android:textSize="11dp" android:paddingRight="5dp" android:textColor="#8d8d8d"/>
+        </LinearLayout>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_list_message" android:textSize="12dp" android:layout_marginTop="5dp"
+                android:textColor="#8d8d8d"/>
+    </LinearLayout>
+    <ImageView
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_msg_icon" android:src="@mipmap/new_message_icon" android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp" android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/imageView3" android:visibility="invisible"/>
+</RelativeLayout>

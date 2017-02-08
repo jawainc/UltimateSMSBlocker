@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.example.jawad.smsblocker.ViewNumbersFragment" android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark">
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/filterBtn" android:layout_gravity="right"
+                android:background="@color/colorPrimaryDark" android:src="@drawable/ic_filter_list"
+                />
+    </FrameLayout>
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listNumberView"
+            android:divider="#a8a8a8" android:dividerHeight="1px" android:longClickable="false"
+            android:paddingTop="15dp" android:paddingBottom="15dp" android:textAlignment="center"
+    />
+
+</LinearLayout>

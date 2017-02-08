@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SMS Blocker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="num_days_hint">No. of days to delete messages</string>
+    <string name="import_list_message">Import a phone numbers list to block.\nFile should be a
+        <b>CSV</b>
+        file.\nRange numbers should be comma(,) separated\nEvery number on a new line
+    </string>
+    <string name="export_list_message">Select directory to save numbers file.\nFile will be save as SMSBlocker.csv</string>
+
+</resources>

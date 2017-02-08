@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.example.jawad.smsblocker.ViewNumbersFragment" android:orientation="vertical"
+                android:id="@+id/inboxFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:background="@color/colorPrimaryDark"
+            android:id="@+id/inbox_delete_container">
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete_all_messages" android:background="@color/colorPrimaryDark"
+                android:layout_alignParentLeft="true" android:src="@drawable/ic_delete_forever_white_48px"
+                android:padding="5dp" android:visibility="invisible"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Messages"
+                android:id="@+id/inbox_no_message_text" android:layout_alignParentTop="false" android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="false" android:layout_alignWithParentIfMissing="false"
+                android:layout_centerVertical="true" android:textColor="#ffffff" android:visibility="invisible"
+                android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewMessagesContainer"
+            android:divider="#a8a8a8" android:dividerHeight="1px" android:longClickable="false"
+            android:paddingTop="15dp" android:paddingBottom="15dp" android:textAlignment="center"
+    />
+
+</LinearLayout>

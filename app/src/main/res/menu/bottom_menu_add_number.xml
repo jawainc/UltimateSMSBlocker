@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Number"
+        android:id="@+id/add_single_number"
+        android:icon="@drawable/ic_add_box"
+        android:checked="true"
+    />
+
+    <item
+        android:title="Range"
+        android:id="@+id/add_range_number"
+        android:icon="@drawable/ic_playlist_add"
+    />
+
+    <item
+
+        android:id="@+id/add_contacts"
+        android:title="Contacts"
+        android:icon="@drawable/ic_import_contacts"
+    />
+
+    <item
+
+            android:id="@+id/add_messages"
+            android:title="Messages"
+            android:icon="@drawable/ic_email"
+    />
+
+
+
+</menu>

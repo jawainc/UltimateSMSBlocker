@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group  android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_inbox"
+                android:icon="@drawable/ic_inbox"
+                android:title="Messages"
+                android:checked="true"
+
+        />
+        <item
+                android:id="@+id/nav_block_number"
+                android:icon="@drawable/ic_add_box"
+                android:title="Add"/>
+        <item
+                android:id="@+id/nav_view_numbers"
+                android:icon="@drawable/ic_view_list"
+                android:title="Blocked Numbers"/>
+
+    </group>
+
+    <item android:title="Bulk Actions">
+        <menu>
+            <group  android:checkableBehavior="single">
+                <item
+                        android:id="@+id/nav_upload"
+                        android:icon="@drawable/ic_file_upload"
+                        android:title="Import List To Block"/>
+                <item
+                        android:id="@+id/nav_download"
+                        android:icon="@drawable/ic_file_download"
+                        android:title="Export Blocked List"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+
+                    android:id="@+id/nav_block_unknown"
+                    app:actionLayout="@layout/settings_switch"
+                    android:gravity="left"
+                    android:title="Block Unknown Numbers"
+                    />
+            <item
+                    android:id="@+id/nav_days_to_delete"
+                    app:actionLayout="@layout/settings_num_days"
+                    android:gravity="left"
+                    android:title="Days to Delete Messages"/>
+
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.jawad.smsblocker.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/import_list_message" android:padding="10dp" android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Import List"
+            android:id="@+id/import_list_button" android:layout_gravity="center"
+            android:background="@color/colorAccent" android:textColor="#ffffff" android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar" android:layout_gravity="center_horizontal|bottom"
+            android:indeterminate="true" android:indeterminateBehavior="cycle" android:visibility="invisible"/>
+
+</FrameLayout>

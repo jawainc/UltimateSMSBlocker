@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:paddingLeft="15dp" android:paddingTop="10dp"
+                android:paddingRight="15dp" android:paddingBottom="10dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/block_list_number_1" android:textSize="15dp"/>
+    </LinearLayout>
+</RelativeLayout>

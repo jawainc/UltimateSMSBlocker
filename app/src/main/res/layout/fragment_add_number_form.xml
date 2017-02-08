@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".AddNumberForm" android:orientation="vertical"
+              android:weightSum="1" android:textAlignment="center" android:padding="0dp"
+              android:id="@+id/add_number_form" android:visibility="visible">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <android.support.design.widget.TextInputEditText
+            android:layout_width="230dp"
+            android:layout_height="wrap_content" android:id="@+id/add_single_number_editor" android:layout_gravity="center"
+            android:layout_marginTop="60dp" android:numeric="integer" android:backgroundTint="#000000"/>
+    <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/add_single_number_button" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" android:text="Add Number" android:textColor="#ffffff"
+            style="@style/Widget.AppCompat.Button.Colored"
+    />
+
+</LinearLayout>
+
+
